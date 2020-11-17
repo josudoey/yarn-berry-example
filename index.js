@@ -1,2 +1,2 @@
-const logger = require('@local/logger')
-logger.info('helloworld')
+const logger = require('@vendor/logger')
+logger.info('hello world')

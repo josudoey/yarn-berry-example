@@ -3,12 +3,15 @@
  $ yarn set version berry
 ```
 
-# Step2 list workspace
+
+# Step2 enable the node-modules plugin
+
+ref https://yarnpkg.com/getting-started/migration#if-required-enable-the-node-modules-plugin
 ```
- $ yarn workspaces list
+ $ echo "nodeLinker: node-modules"| tee -a .yarnrc.yml
 ```
 
-# Step3 run start
+# Step3 list workspace
 ```
- $ yarn run start
+ $ yarn workspaces list
 ```
