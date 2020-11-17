@@ -1,0 +1,14 @@
+{
+  "name": "@local/logger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "author": "Joey Fang",
+  "license": "ISC",
+  "dependencies": {
+    "bunyan": "^1.8.14"
+  }
+}
